@@ -31,7 +31,7 @@ function showResult(score, playerChoice, computerChoice) {
   const computerScoreDiv = document.getElementById('computer-score')
 
   if (score == 1) {
-    result.innerText = 'You Win'
+    result.innerText = 'You Win!'
   } else  if (score == -1) {
     result.innerText = 'You Lose!'
   } else {
